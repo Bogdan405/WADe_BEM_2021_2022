@@ -150,3 +150,8 @@
 	width: 15vw;
 	height: 5vh;
 }
+
+#master-select {
+	position: relative;
+	display: inline-flex;
+}

@@ -23,3 +23,5 @@ ENTRYPOINT ["java", "-jar", "/usr/local/lib/payara-micro.jar", "--deploy", "/usr
 #COPY --from=build /home/app/target/brain.war /usr/local/lib/brain.war
 #EXPOSE 8080
 #ENTRYPOINT ["java", "-jar", "/usr/local/lib/payara-micro.jar", "--deploy", "/usr/local/lib/brain.war", "--contextRoot"," /brain", "--autoBindHttp" ]
+# java -jar payara-micro.jar --deploy target/wingman-core.war --contextRoot /wingman --autoBindHttp --port 8080
+# docker run  -p 6379:6379 redis
